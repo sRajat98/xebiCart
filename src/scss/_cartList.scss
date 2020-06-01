@@ -1,0 +1,77 @@
+.individual-cartlist-item-wrapper{
+margin: 2rem 14rem 2rem 14rem;
+background-color: white;
+width:60%;
+height: 30vh;
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+box-sizing: border-box;
+box-shadow: 0 0 3px rgba(0,0,0,.2);
+text-transform: capitalize;
+font-family: "Proxima Nova";
+ 
+&:hover{
+box-shadow: 0 0 3px rgba(0,0,0,.7);}
+img{
+    height: 50%;
+    width:50%;
+    margin-left: 2rem;
+     
+    }
+}
+ 
+.item-wrapper{
+display:flex;
+flex-direction: column;
+margin-left: -3rem;
+}
+ 
+
+ 
+.cartlist-item-title-wrapper{
+display: inline-block;
+margin-bottom: 1rem;
+}
+ 
+.cartlist-item-price-wrapper{
+display: inline-block;
+margin-bottom: 1rem;
+}
+ 
+.cartlist-item-quantity-wrapper{
+display:flex;
+ flex-direction: row;
+ align-items: flex-start;
+ justify-content: space-between;
+}
+p{
+text-align: center;
+margin-top: -0.1rem;
+margin-right: 1rem;
+}
+.size{
+height: 2rem;
+width:2rem;
+margin-right: 1rem;
+}
+ 
+.remove{
+margin: 1rem;
+}
+button{
+font-family: "Proxima Nova";
+  text-transform: uppercase;
+  outline: 0;
+  background-color: rgb(58, 57, 57);
+  border:transparent;
+  padding: 2px 2px;
+  color: white;
+  width: 20px;
+  border-radius: 4px;
+}
+.remove-button{
+    width: 200px;
+    padding:10px;
+}

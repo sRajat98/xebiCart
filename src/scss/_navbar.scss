@@ -1,0 +1,139 @@
+button{
+    &:hover{
+        transform: scaleY(1.2);
+        cursor: pointer;
+      }
+      &:focus{
+          outline: none;
+      }
+}
+
+.navbar-wrapper{
+    width: 98.2vw;
+    height: 6vh;
+    padding: 8px;
+    padding-right: 0;    
+    background-color: #181C28       ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left-side{
+    width:20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
+    margin-right: 30px;
+}
+
+.logo-wrapper{
+    margin-right:4rem;
+}
+
+.header__search{
+    flex:0 0 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__input{
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: white;
+        border: none;
+        padding: .7rem 2rem;
+        border-radius:100px;
+        width:90%;
+        transition: all 0.5s;
+        margin-right: -3.25rem;
+
+        &:focus{
+            outline: none;
+            width:100%;
+            color:black;
+            border-radius: 2px 2px 2px 2px;
+        }
+
+        &::-webkit-input-placeholder{
+            font-weight: 100;
+            color:grey;
+        }
+    }
+} 
+
+.navbar-right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    flex-grow: 2;
+}
+
+a{text-decoration: none;
+  color:white}
+
+.mycart-logo-wrapper{
+  margin-right: 3rem;
+}
+
+.products-link-wrapper{
+    margin-right: 3rem;
+}
+
+.header__cart{
+    color:white;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: transparent;
+    transition: all 0.2s;
+    border-radius: 10px;
+  
+    &:hover{
+      transform: scaleY(1.2);
+    }
+}
+
+.header__home{
+    color:white;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: transparent;
+    transition: all 0.2s;
+    border-radius: 10px;
+  
+    &:hover{
+      transform: scaleY(1.2);
+    }
+}
+.logout-button{
+    color:white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    background: transparent;
+    transition: all 0.2s;
+    border-radius: 10px;
+    border: transparent;
+
+}
+
+.cart-count-wrapper{
+    background-color: rgb(228, 61, 61);
+    width:3%;
+    height: 45%;
+    font-size: 14px;
+    border-radius: 4px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:21%;
+    top:0;
+    transition: all 0.5s ease-in-out;
+}
